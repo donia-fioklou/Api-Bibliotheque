@@ -48,5 +48,29 @@ définir la variable 'FLASK_APP' sur App.py
 Commencer
 
 URL de base : à l'heure actuelle, cette application ne peut être exécutée que localement et n'est pas hébergée en tant qu'URL de base. L'application principale est hébergée par défaut, http://localhost:5000 ; qui est défini comme proxy dans la configuration frontale.
+## Points de terminaisons de l'api
+- Listes tous les livres
+  exemple:http://127.0.0.1:5000/livres
+- Chercher un livre en particulier par son id
+  exemple:http://127.0.0.1:5000/livres/1
+- Lister la liste des livres d’une catégorie
+  exemple:http://127.0.0.1:5000/categories/2/livres
+- Lister une catégorie
+  exemple:http://127.0.0.1:5000/categorie
+- Chercher une catégorie par son id
+  exemple:http://127.0.0.1:5000/categories/2
+- Listes toutes les catégories
+  exemple:http://127.0.0.1:5000/categories
+- Supprimer un livre
+  exemple:http://127.0.0.1:5000/deleteLivre/2
+- Supprimer une categorie
+  exemple:http://127.0.0.1:5000/deleteCategorie/4
+- Modifier les informations d’un livre
+  exemple:http://127.0.0.1:5000/modifylivre/4
+- Modifier le libellé d’une categorie
+  exemple:http://127.0.0.1:5000/modifyCategorie/2
+
+ces Points de terminaisons renvoient les reponses sur le format json.
+
 
 
