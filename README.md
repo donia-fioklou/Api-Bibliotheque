@@ -32,13 +32,13 @@ ceci va installer tout les dependances du fichier requirment.txt
 À partir du répertoire 'MiniProjet', assurez-vous d’abord que vous travaillez à l’aide de votre environnement virtuel créé.
 Pour exécuter le serveur sous Linux ou Mac, exécutez :
 ```bash
-export FLASK_APP=flaskr
+export FLASK_APP=App.py
 export FLASK_ENV=development
 flask run
 ```
 Pour exécuter le serveur sous Windows, exécutez :
 ```bash
-set FLASK_APP=flaskr
+set FLASK_APP=App.py
 set FLASK_ENV=development
 flask run
 ```
